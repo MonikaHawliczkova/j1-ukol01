@@ -21,7 +21,6 @@ public class HlavniProgram {
         //zofka.penDown();
         //nakresliSlunicko();
 
-
         zofka.penUp();
         zofka.turnLeft(90);
         zofka.move(550);
@@ -92,8 +91,6 @@ public class HlavniProgram {
         nakresliI();
         nakresliK();
         nakresliA();
-
-
     }
 
     private void nakresliPrasatko() {
@@ -144,7 +141,6 @@ public class HlavniProgram {
             zofka.move(50);
             zofka.turnRight(45);
         }
-
     }
 
     private void nakresliKolecko() {
@@ -165,9 +161,7 @@ public class HlavniProgram {
             zofka.turnLeft(180);
             zofka.move(30);
             zofka.turnRight(90);
-            
-        }
-
+            }
     }
 
     private void nakresliMaleSlunicko() {
@@ -181,9 +175,7 @@ public class HlavniProgram {
             zofka.turnLeft(180);
             zofka.move(15);
             zofka.turnRight(90);
-
         }
-
     }
 
     private void nakresliDomecek() {
@@ -222,7 +214,6 @@ public class HlavniProgram {
         zofka.move(50);
         zofka.turnLeft(90);
         zofka.penDown();
-
     }
 
     private void nakresliN() {
@@ -238,7 +229,6 @@ public class HlavniProgram {
         zofka.move(30);
         zofka.turnLeft(90);
         zofka.penDown();
-
     }
 
     private void nakresliI() {
